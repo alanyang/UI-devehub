@@ -1,0 +1,143 @@
+{
+  "translation": {
+    "nav": {
+      "buildApp": "构建应用",
+      "adminConsole": "管理控制台",
+      "devDashboard": "开发者控制台",
+      "myLibrary": "我的库",
+      "login": "登录"
+    },
+    "marketplace": {
+      "liveOnDeveHub": "DeveHub 上线",
+      "title": "停止租赁。",
+      "subtitle": "开始拥有。",
+      "tagline": "聪明人的 AI 应用市场。",
+      "description": "开发者销售密钥。您一次购买，永久拥有。不再有月费消耗您的银行账户。",
+      "searchPlaceholder": "搜索终身优惠...",
+      "trustedBy": "被 10,000+ 买家信赖",
+      "noToolsFound": "未找到工具",
+      "tryAdjusting": "尝试调整您的筛选条件以找到您的下一个超能力工具。"
+    },
+    "comparison": {
+      "title": "数学很简单",
+      "oldWay": {
+        "title": "\"SaaS\" 陷阱",
+        "period": "每年",
+        "price": "$300",
+        "description": "经常性付款"
+      },
+      "newWay": {
+        "title": "永久拥有",
+        "period": "一次付款",
+        "price": "$9.90",
+        "lifetimeAccess": "终身访问",
+        "freeUpdates": "免费更新"
+      },
+      "save95": "节省 95%",
+      "quote": "我不再为 5 个不同的 AI 订阅付费，而是直接在这里购买工具。"
+    },
+    "categories": {
+      "All": "全部",
+      "Productivity": "生产力",
+      "DevTools": "开发工具",
+      "Design": "设计",
+      "AI": "AI",
+      "Marketing": "营销",
+      "Business": "商业",
+      "Self-improvement": "自我提升"
+    },
+    "productCard": {
+      "standard": "标准版",
+      "premium": "高级版",
+      "free": "免费"
+    },
+    "productDetail": {
+      "backToMarketplace": "返回市场",
+      "share": "分享",
+      "copied": "已复制",
+      "about": "关于此工具",
+      "lifetimeAccess": "终身访问",
+      "perYear": "/年",
+      "oneTimePayment": "一次性付款，永久访问",
+      "instantDelivery": "即时密钥交付",
+      "futureUpdates": "包含所有未来更新",
+      "securePayment": "通过 Stripe 安全支付",
+      "buyLifetimeAccess": "购买终身访问",
+      "loginToBuy": "登录购买",
+      "getForFree": "免费获取",
+      "alreadyOwned": "已拥有",
+      "moneyBackGuarantee": "14 天退款保证。",
+      "moneyBackDetail": "您可以在购买后 14 天内申请全额退款。无需任何理由。",
+      "priceChangeNote": "如果开发者以后更改价格，您的终身访问仍然有效，无需额外费用。"
+    },
+    "login": {
+      "welcome": "欢迎来到 DeveHub",
+      "signIn": "登录您的账户",
+      "email": "电子邮件地址",
+      "password": "密码",
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？",
+      "signInBtn": "登录",
+      "termsAgreement": "登录即表示您同意我们的服务条款和隐私政策。",
+      "adminEnter": "管理员入口"
+    },
+    "dashboard": {
+      "developerConsole": "开发者控制台",
+      "overview": "概览",
+      "createProject": "创建项目",
+      "financials": "财务",
+      "payoutMethod": "付款方式",
+      "settings": "设置",
+      "totalRevenue": "总收入",
+      "activeLicenses": "活跃许可证",
+      "clickToViewBreakdown": "点击查看明细",
+      "yourProjects": "您的项目",
+      "newProject": "新项目"
+    },
+    "userDashboard": {
+      "myApps": "我的应用",
+      "billingHistory": "账单历史",
+      "settings": "设置",
+      "sellYourApps": "销售您的应用",
+      "developerConsole": "开发者控制台",
+      "myAppLibrary": "我的应用库",
+      "checkForUpdates": "检查更新",
+      "noActiveApps": "没有活跃应用",
+      "exploreMarketplace": "探索市场以找到提升您工作流程的工具。",
+      "browseMarketplace": "浏览市场",
+      "lifetimeLicense": "终身许可证",
+      "licenseKey": "许可证密钥",
+      "download": "下载",
+      "launchApp": "启动应用",
+      "viewDocs": "查看文档",
+      "reportIssue": "报告问题",
+      "billing": "账单历史",
+      "accountSettings": "账户设置",
+      "manageProfile": "管理您的个人资料和安全偏好。",
+      "changeAvatar": "更改头像",
+      "fullName": "全名",
+      "emailAddress": "电子邮件地址",
+      "newPassword": "新密码",
+      "saveChanges": "保存更改",
+      "deleteAccount": "删除账户",
+      "deleteAccountDesc": "永久删除您的账户和所有数据。许可证将会丢失。",
+      "delete": "删除"
+    },
+    "footer": {
+      "marketplace": "市场",
+      "browseAll": "浏览全部",
+      "newArrivals": "新上架",
+      "featured": "精选",
+      "developers": "开发者",
+      "sellYourTool": "销售您的工具",
+      "developerApi": "开发者 API",
+      "successStories": "成功案例",
+      "legal": "法律",
+      "termsOfService": "服务条款",
+      "privacyPolicy": "隐私政策",
+      "refundPolicy": "退款政策",
+      "copyright": "© 2024 DeveHub Inc. 保留所有权利。",
+      "madeWithLove": "用心制作"
+    }
+  }
+}

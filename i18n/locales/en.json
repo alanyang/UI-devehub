@@ -1,0 +1,143 @@
+{
+  "translation": {
+    "nav": {
+      "buildApp": "Build App",
+      "adminConsole": "Admin Console",
+      "devDashboard": "Dev Dashboard",
+      "myLibrary": "My Library",
+      "login": "Log In"
+    },
+    "marketplace": {
+      "liveOnDeveHub": "Live on DeveHub",
+      "title": "Stop Renting.",
+      "subtitle": "Start Owning.",
+      "tagline": "The AI app marketplace for smart people.",
+      "description": "Developers sell keys. You buy once, own forever. No more monthly fees draining your bank account.",
+      "searchPlaceholder": "Find lifetime deals...",
+      "trustedBy": "Trusted by 10,000+ buyers",
+      "noToolsFound": "No tools found",
+      "tryAdjusting": "Try adjusting your filters to find your next superpower."
+    },
+    "comparison": {
+      "title": "The Math is Simple",
+      "oldWay": {
+        "title": "The \"SaaS\" Trap",
+        "period": "YEARLY",
+        "price": "$300",
+        "description": "Recurring Payments"
+      },
+      "newWay": {
+        "title": "Own it forever",
+        "period": "Pay Once",
+        "price": "$9.90",
+        "lifetimeAccess": "Lifetime Access",
+        "freeUpdates": "Free Updates"
+      },
+      "save95": "SAVE 95%",
+      "quote": "I stopped paying for 5 different AI subscriptions and just bought tools here."
+    },
+    "categories": {
+      "All": "All",
+      "Productivity": "Productivity",
+      "DevTools": "DevTools",
+      "Design": "Design",
+      "AI": "AI",
+      "Marketing": "Marketing",
+      "Business": "Business",
+      "Self-improvement": "Self-improvement"
+    },
+    "productCard": {
+      "standard": "Standard",
+      "premium": "Premium",
+      "free": "Free"
+    },
+    "productDetail": {
+      "backToMarketplace": "Back to Marketplace",
+      "share": "Share",
+      "copied": "Copied",
+      "about": "About this Tool",
+      "lifetimeAccess": "Lifetime Access",
+      "perYear": "/yr",
+      "oneTimePayment": "One-time payment, forever access",
+      "instantDelivery": "Instant License Key delivery",
+      "futureUpdates": "All future updates included",
+      "securePayment": "Secure payment via Stripe",
+      "buyLifetimeAccess": "Buy Lifetime Access",
+      "loginToBuy": "Log In to Buy",
+      "getForFree": "Get for Free",
+      "alreadyOwned": "Already Owned",
+      "moneyBackGuarantee": "14-day money-back guarantee.",
+      "moneyBackDetail": "You can request a full refund within 14 days of purchase. No questions asked.",
+      "priceChangeNote": "If the developer changes the price later, your lifetime access remains valid without extra cost."
+    },
+    "login": {
+      "welcome": "Welcome to DeveHub",
+      "signIn": "Sign in to your account",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "signInBtn": "Sign In",
+      "termsAgreement": "By signing in, you agree to our Terms of Service and Privacy Policy.",
+      "adminEnter": "Admin Enter"
+    },
+    "dashboard": {
+      "developerConsole": "Developer Console",
+      "overview": "Overview",
+      "createProject": "Create Project",
+      "financials": "Financials",
+      "payoutMethod": "Payout Method",
+      "settings": "Settings",
+      "totalRevenue": "Total Revenue",
+      "activeLicenses": "Active Licenses",
+      "clickToViewBreakdown": "Click to view breakdown",
+      "yourProjects": "Your Projects",
+      "newProject": "New Project"
+    },
+    "userDashboard": {
+      "myApps": "My Apps",
+      "billingHistory": "Billing History",
+      "settings": "Settings",
+      "sellYourApps": "Sell Your Apps",
+      "developerConsole": "Developer Console",
+      "myAppLibrary": "My App Library",
+      "checkForUpdates": "Check for Updates",
+      "noActiveApps": "No active apps",
+      "exploreMarketplace": "Explore the marketplace to find tools that boost your workflow.",
+      "browseMarketplace": "Browse Marketplace",
+      "lifetimeLicense": "Lifetime License",
+      "licenseKey": "License Key",
+      "download": "Download",
+      "launchApp": "Launch App",
+      "viewDocs": "View Docs",
+      "reportIssue": "Report Issue",
+      "billing": "Billing History",
+      "accountSettings": "Account Settings",
+      "manageProfile": "Manage your profile and security preferences.",
+      "changeAvatar": "Change Avatar",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "newPassword": "New Password",
+      "saveChanges": "Save Changes",
+      "deleteAccount": "Delete Account",
+      "deleteAccountDesc": "Permanently remove your account and all data. Licenses will be lost.",
+      "delete": "Delete"
+    },
+    "footer": {
+      "marketplace": "Marketplace",
+      "browseAll": "Browse All",
+      "newArrivals": "New Arrivals",
+      "featured": "Featured",
+      "developers": "Developers",
+      "sellYourTool": "Sell Your Tool",
+      "developerApi": "Developer API",
+      "successStories": "Success Stories",
+      "legal": "Legal",
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "refundPolicy": "Refund Policy",
+      "copyright": "© 2024 DeveHub Inc. All rights reserved.",
+      "madeWithLove": "Made with"
+    }
+  }
+}
