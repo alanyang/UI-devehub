@@ -1,8 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Icons } from '../components/Icons';
 import { Button } from '../components/Button';
 
 export const BuildService: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="min-h-screen pb-20">
       {/* Hero Section */}
@@ -13,14 +16,14 @@ export const BuildService: React.FC = () => {
          <div className="max-w-7xl mx-auto text-center relative z-10">
             <div className="inline-flex items-center space-x-2 bg-white/10 border border-white/20 rounded-full px-4 py-1.5 shadow-sm mb-6 backdrop-blur-sm">
                <Icons.Zap className="w-4 h-4 text-yellow-400" />
-               <span className="text-sm font-medium text-white/90">Official DeveHub Factory</span>
+               <span className="text-sm font-medium text-white/90">{t('buildService.hero.officialFactory')}</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
-               Turn Your AI Idea Into<br />
-               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-purple-400">A Selling Product</span>
+               {t('buildService.hero.titlePrefix')}<br />
+               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-purple-400">{t('buildService.hero.titleSuffix')}</span>
             </h1>
             <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
-               Don't let technical hurdles stop you. Whether you need a backend partner or a full-service team, we build the engine while you drive the vision.
+               {t('buildService.hero.subtitle')}
             </p>
          </div>
       </div>
@@ -36,36 +39,36 @@ export const BuildService: React.FC = () => {
                      <Icons.Terminal className="w-7 h-7" />
                   </div>
                   <div>
-                     <h3 className="text-2xl font-bold text-slate-900">Mode A</h3>
-                     <p className="text-slate-500 font-medium">Backend Partner</p>
+                     <h3 className="text-2xl font-bold text-slate-900">{t('buildService.modeA.title')}</h3>
+                     <p className="text-slate-500 font-medium">{t('buildService.modeA.role')}</p>
                   </div>
                </div>
 
                <p className="text-slate-600 mb-8 flex-grow">
-                  You build the frontend and user experience. We handle the heavy lifting: servers, databases, AI model integration, and API scaling. Perfect for frontend devs who want to move fast.
+                  {t('buildService.modeA.description')}
                </p>
 
                <div className="space-y-4 mb-8">
                   <div className="flex items-center gap-3">
                      <Icons.Check className="w-5 h-5 text-green-500 flex-shrink-0" />
-                     <span className="text-slate-700">Scalable Server & Database Setup</span>
+                     <span className="text-slate-700">{t('buildService.modeA.feat1')}</span>
                   </div>
                   <div className="flex items-center gap-3">
                      <Icons.Check className="w-5 h-5 text-green-500 flex-shrink-0" />
-                     <span className="text-slate-700">Secure API Endpoints</span>
+                     <span className="text-slate-700">{t('buildService.modeA.feat2')}</span>
                   </div>
                   <div className="flex items-center gap-3">
                      <Icons.Check className="w-5 h-5 text-green-500 flex-shrink-0" />
-                     <span className="text-slate-700">AI Model Integration (LLMs, SD, etc)</span>
+                     <span className="text-slate-700">{t('buildService.modeA.feat3')}</span>
                   </div>
                   <div className="flex items-center gap-3">
                      <Icons.Check className="w-5 h-5 text-green-500 flex-shrink-0" />
-                     <span className="text-slate-700"><strong>7 Days</strong> Turnaround</span>
+                     <span className="text-slate-700"><strong>{t('buildService.modeA.feat4Prefix')}</strong> {t('buildService.modeA.feat4Suffix')}</span>
                   </div>
                </div>
 
                <div className="mt-auto pt-6 border-t border-slate-100">
-                  <Button variant="outline" size="lg" className="w-full">Start Mode A</Button>
+                  <Button variant="outline" size="lg" className="w-full">{t('buildService.modeA.cta')}</Button>
                </div>
             </div>
 
@@ -78,36 +81,36 @@ export const BuildService: React.FC = () => {
                      <Icons.Zap className="w-7 h-7" />
                   </div>
                   <div>
-                     <h3 className="text-2xl font-bold text-white">Mode B</h3>
-                     <p className="text-primary-300 font-medium">Full Service Agency</p>
+                     <h3 className="text-2xl font-bold text-white">{t('buildService.modeB.title')}</h3>
+                     <p className="text-primary-300 font-medium">{t('buildService.modeB.role')}</p>
                   </div>
                </div>
 
                <p className="text-slate-300 mb-8 flex-grow relative z-10">
-                  We handle everything from start to finish. From the initial UI draft to the final deployment and testing. You provide the vision, we deliver a fully functional, sellable product.
+                  {t('buildService.modeB.description')}
                </p>
 
                {/* Timeline Graphic */}
                <div className="bg-slate-800/50 rounded-xl p-4 mb-8 border border-slate-700/50">
-                  <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Development Timeline</h4>
+                  <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">{t('buildService.modeB.timelineTitle')}</h4>
                   <div className="space-y-4">
                      <div className="flex items-center gap-4">
                         <div className="w-2 h-2 rounded-full bg-blue-500"></div>
-                        <span className="text-sm text-slate-300"><strong>Day 1-3:</strong> UI Draft & Interactions</span>
+                        <span className="text-sm text-slate-300"><strong>{t('buildService.modeB.timeline1Prefix')}</strong> {t('buildService.modeB.timeline1Suffix')}</span>
                      </div>
                      <div className="flex items-center gap-4">
                         <div className="w-2 h-2 rounded-full bg-purple-500"></div>
-                        <span className="text-sm text-slate-300"><strong>Day 4-10:</strong> Development & Integration</span>
+                        <span className="text-sm text-slate-300"><strong>{t('buildService.modeB.timeline2Prefix')}</strong> {t('buildService.modeB.timeline2Suffix')}</span>
                      </div>
                      <div className="flex items-center gap-4">
                         <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                        <span className="text-sm text-slate-300"><strong>Day 11-17:</strong> Testing & Final Review</span>
+                        <span className="text-sm text-slate-300"><strong>{t('buildService.modeB.timeline3Prefix')}</strong> {t('buildService.modeB.timeline3Suffix')}</span>
                      </div>
                   </div>
                </div>
 
                <div className="mt-auto pt-6 border-t border-slate-800 relative z-10">
-                  <Button variant="primary" size="lg" className="w-full shadow-lg shadow-primary-500/25">Start Mode B</Button>
+                  <Button variant="primary" size="lg" className="w-full shadow-lg shadow-primary-500/25">{t('buildService.modeB.cta')}</Button>
                </div>
             </div>
 
@@ -116,22 +119,22 @@ export const BuildService: React.FC = () => {
       
       {/* FAQ / Trust */}
       <div className="max-w-3xl mx-auto mt-20 px-4 text-center">
-         <h2 className="text-2xl font-bold text-slate-900 mb-4">Why build with DeveHub?</h2>
+         <h2 className="text-2xl font-bold text-slate-900 mb-4">{t('buildService.trust.title')}</h2>
          <p className="text-slate-500">
-            We know what sells on our marketplace. Apps built by our team are automatically optimized for the DeveHub platform, ensuring seamless license integration and high-quality user experience standards.
+            {t('buildService.trust.description')}
          </p>
          <div className="mt-8 flex justify-center gap-8">
             <div className="flex flex-col items-center">
                <span className="text-3xl font-bold text-slate-900">100%</span>
-               <span className="text-xs text-slate-500 uppercase tracking-wide mt-1">IP Ownership</span>
+               <span className="text-xs text-slate-500 uppercase tracking-wide mt-1">{t('buildService.trust.stat1')}</span>
             </div>
             <div className="flex flex-col items-center">
                <span className="text-3xl font-bold text-slate-900">24/7</span>
-               <span className="text-xs text-slate-500 uppercase tracking-wide mt-1">Support</span>
+               <span className="text-xs text-slate-500 uppercase tracking-wide mt-1">{t('buildService.trust.stat2')}</span>
             </div>
             <div className="flex flex-col items-center">
-               <span className="text-3xl font-bold text-slate-900">Speed</span>
-               <span className="text-xs text-slate-500 uppercase tracking-wide mt-1">To Market</span>
+               <span className="text-3xl font-bold text-slate-900">{t('buildService.trust.stat3Value')}</span>
+               <span className="text-xs text-slate-500 uppercase tracking-wide mt-1">{t('buildService.trust.stat3Label')}</span>
             </div>
          </div>
       </div>

@@ -138,6 +138,46 @@
       "refundPolicy": "Refund Policy",
       "copyright": "© 2024 DeveHub Inc. All rights reserved.",
       "madeWithLove": "Made with"
+    },
+    "buildService": {
+      "hero": {
+        "officialFactory": "Official DeveHub Factory",
+        "titlePrefix": "Turn Your AI Idea Into",
+        "titleSuffix": "A Selling Product",
+        "subtitle": "Don't let technical hurdles stop you. Whether you need a backend partner or a full-service team, we build the engine while you drive the vision."
+      },
+      "modeA": {
+        "title": "Mode A",
+        "role": "Backend Partner",
+        "description": "You build the frontend and user experience. We handle the heavy lifting: servers, databases, AI model integration, and API scaling. Perfect for frontend devs who want to move fast.",
+        "feat1": "Scalable Server & Database Setup",
+        "feat2": "Secure API Endpoints",
+        "feat3": "AI Model Integration (LLMs, SD, etc)",
+        "feat4Prefix": "7 Days",
+        "feat4Suffix": "Turnaround",
+        "cta": "Start Mode A"
+      },
+      "modeB": {
+        "title": "Mode B",
+        "role": "Full Service Agency",
+        "description": "We handle everything from start to finish. From the initial UI draft to the final deployment and testing. You provide the vision, we deliver a fully functional, sellable product.",
+        "timelineTitle": "Development Timeline",
+        "timeline1Prefix": "Day 1-3:",
+        "timeline1Suffix": "UI Draft & Interactions",
+        "timeline2Prefix": "Day 4-10:",
+        "timeline2Suffix": "Development & Integration",
+        "timeline3Prefix": "Day 11-17:",
+        "timeline3Suffix": "Testing & Final Review",
+        "cta": "Start Mode B"
+      },
+      "trust": {
+        "title": "Why build with DeveHub?",
+        "description": "We know what sells on our marketplace. Apps built by our team are automatically optimized for the DeveHub platform, ensuring seamless license integration and high-quality user experience standards.",
+        "stat1": "IP Ownership",
+        "stat2": "Support",
+        "stat3Value": "Speed",
+        "stat3Label": "To Market"
+      }
     }
   }
 }

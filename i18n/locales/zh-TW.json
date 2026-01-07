@@ -1,0 +1,183 @@
+{
+  "translation": {
+    "nav": {
+      "buildApp": "構建應用",
+      "adminConsole": "管理控制台",
+      "devDashboard": "開發者控制台",
+      "myLibrary": "我的庫",
+      "login": "登入"
+    },
+    "marketplace": {
+      "liveOnDeveHub": "DeveHub 上線",
+      "title": "停止租賃。",
+      "subtitle": "開始擁有。",
+      "tagline": "聰明人的 AI 應用市場。",
+      "description": "開發者銷售金鑰。您一次購買，永久擁有。不再有月費消耗您的銀行賬戶。",
+      "searchPlaceholder": "搜尋終身優惠...",
+      "trustedBy": "被 10,000+ 買家信賴",
+      "noToolsFound": "未找到工具",
+      "tryAdjusting": "嘗試調整您的篩選條件以找到您的下一個超能力工具。"
+    },
+    "comparison": {
+      "title": "數學很簡單",
+      "oldWay": {
+        "title": "\"SaaS\" 陷阱",
+        "period": "每年",
+        "price": "$300",
+        "description": "經常性付款"
+      },
+      "newWay": {
+        "title": "永久擁有",
+        "period": "一次付款",
+        "price": "$9.90",
+        "lifetimeAccess": "終身訪問",
+        "freeUpdates": "免費更新"
+      },
+      "save95": "節省 95%",
+      "quote": "我不再為 5 個不同的 AI 訂閱付費，而是直接在這裡購買工具。"
+    },
+    "categories": {
+      "All": "全部",
+      "Productivity": "生產力",
+      "DevTools": "開發工具",
+      "Design": "設計",
+      "AI": "AI",
+      "Marketing": "營銷",
+      "Business": "商業",
+      "Self-improvement": "自我提升"
+    },
+    "productCard": {
+      "standard": "標準版",
+      "premium": "高級版",
+      "free": "免費"
+    },
+    "productDetail": {
+      "backToMarketplace": "返回市場",
+      "share": "分享",
+      "copied": "已複製",
+      "about": "關於此工具",
+      "lifetimeAccess": "終身訪問",
+      "perYear": "/年",
+      "oneTimePayment": "一次性付款，永久訪問",
+      "instantDelivery": "即時金鑰交付",
+      "futureUpdates": "包含所有未來更新",
+      "securePayment": "通過 Stripe 安全支付",
+      "buyLifetimeAccess": "購買終身訪問",
+      "loginToBuy": "登入購買",
+      "getForFree": "免費獲取",
+      "alreadyOwned": "已擁有",
+      "moneyBackGuarantee": "14 天退款保證。",
+      "moneyBackDetail": "您可以在購買後 14 天內申請全額退款。無需任何理由。",
+      "priceChangeNote": "如果開發者以後更改價格，您的終身訪問仍然有效，無需額外費用。"
+    },
+    "login": {
+      "welcome": "歡迎來到 DeveHub",
+      "signIn": "登入您的賬戶",
+      "email": "電子郵件地址",
+      "password": "密碼",
+      "rememberMe": "記住我",
+      "forgotPassword": "忘記密碼？",
+      "signInBtn": "登入",
+      "termsAgreement": "登入即表示您同意我們的服務條款和隱私政策。",
+      "adminEnter": "管理員入口"
+    },
+    "dashboard": {
+      "developerConsole": "開發者控制台",
+      "overview": "概覽",
+      "createProject": "創建項目",
+      "financials": "財務",
+      "payoutMethod": "付款方式",
+      "settings": "設置",
+      "totalRevenue": "總收入",
+      "activeLicenses": "活躍許可證",
+      "clickToViewBreakdown": "點擊查看明細",
+      "yourProjects": "您的項目",
+      "newProject": "新項目"
+    },
+    "userDashboard": {
+      "myApps": "我的應用",
+      "billingHistory": "賬單歷史",
+      "settings": "設置",
+      "sellYourApps": "銷售您的應用",
+      "developerConsole": "開發者控制台",
+      "myAppLibrary": "我的應用庫",
+      "checkForUpdates": "檢查更新",
+      "noActiveApps": "沒有活躍應用",
+      "exploreMarketplace": "探索市場以找到提升您工作流程的工具。",
+      "browseMarketplace": "瀏覽市場",
+      "lifetimeLicense": "終身許可證",
+      "licenseKey": "許可證金鑰",
+      "download": "下載",
+      "launchApp": "啟動應用",
+      "viewDocs": "查看文檔",
+      "reportIssue": "報告問題",
+      "billing": "賬單歷史",
+      "accountSettings": "賬戶設置",
+      "manageProfile": "管理您的個人資料和安全偏好。",
+      "changeAvatar": "更改頭像",
+      "fullName": "全名",
+      "emailAddress": "電子郵件地址",
+      "newPassword": "新密碼",
+      "saveChanges": "保存更改",
+      "deleteAccount": "刪除賬戶",
+      "deleteAccountDesc": "永久刪除您的賬戶和所有數據。許可證將會丟失。",
+      "delete": "刪除"
+    },
+    "footer": {
+      "marketplace": "市場",
+      "browseAll": "瀏覽全部",
+      "newArrivals": "新上架",
+      "featured": "精選",
+      "developers": "開發者",
+      "sellYourTool": "銷售您的工具",
+      "developerApi": "開發者 API",
+      "successStories": "成功案例",
+      "legal": "法律",
+      "termsOfService": "服務條款",
+      "privacyPolicy": "隱私政策",
+      "refundPolicy": "退款政策",
+      "copyright": "© 2024 DeveHub Inc. 保留所有權利。",
+      "madeWithLove": "用心製作"
+    },
+    "buildService": {
+      "hero": {
+        "officialFactory": "官方 DeveHub 工廠",
+        "titlePrefix": "將您的 AI 創意轉化為",
+        "titleSuffix": "熱銷產品",
+        "subtitle": "別讓技術障礙阻擋您。無論您需要後端合作夥伴還是全方位服務團隊，我們負責構建引擎，您負責掌控願景。"
+      },
+      "modeA": {
+        "title": "模式 A",
+        "role": "後端合作夥伴",
+        "description": "您構建前端和用戶體驗。我們處理繁重的工作：服務器、數據庫、AI 模型集成和 API 擴展。非常適合希望快速行動的前端開發者。",
+        "feat1": "可擴展的服務器和數據庫設置",
+        "feat2": "安全的 API 端點",
+        "feat3": "AI 模型集成 (LLMs, SD 等)",
+        "feat4Prefix": "7 天",
+        "feat4Suffix": "交付",
+        "cta": "開始模式 A"
+      },
+      "modeB": {
+        "title": "模式 B",
+        "role": "全方位服務代理",
+        "description": "我們處理從頭到尾的一切。從最初的 UI 草稿到最終的部署和測試。您提供願景，我們交付功能齊全、可銷售的產品。",
+        "timelineTitle": "開發時間表",
+        "timeline1Prefix": "第 1-3 天：",
+        "timeline1Suffix": "UI 草稿和交互",
+        "timeline2Prefix": "第 4-10 天：",
+        "timeline2Suffix": "開發和集成",
+        "timeline3Prefix": "第 11-17 天：",
+        "timeline3Suffix": "測試和最終審查",
+        "cta": "開始模式 B"
+      },
+      "trust": {
+        "title": "為什麼選擇 DeveHub 構建？",
+        "description": "我們知道在我們的市場上什麼好賣。由我們團隊構建的應用會自動針對 DeveHub 平台進行優化，確保無縫的許可證集成和高質量的用戶體驗標準。",
+        "stat1": "IP 所有權",
+        "stat2": "支持",
+        "stat3Value": "極速",
+        "stat3Label": "上市"
+      }
+    }
+  }
+}
